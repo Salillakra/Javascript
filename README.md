@@ -1,4 +1,4 @@
-# JavaScript Demo: Smooth Scrolling of a overflow-x:hidden; element using with vanilla javascript
+# JavaScript Demo: Smooth Scrolling of a overflow-X hidden; element using with vanilla javascript
 
 This demo demonstrates how to use JavaScript to implement smooth scrolling for a container element.
 
