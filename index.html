@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        overflow-x: hidden;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        overflow-x: hidden;
+        margin-top: 8rem;
+        display: flex;
+      }
+      .items {
+        object-fit: cover;
+      }
+      img {
+        -webkit-user-drag: none;
+        width: calc(50vw / 1.5);
+        border-radius: 35px;
+        padding: 1rem 1.5rem;
+      }
+
+      @media only screen and (max-width: 767px) {
+        /* CSS rules for small screens */
+        img {
+          width: calc(50vw / 0.5);
+        }
+      }
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        /* CSS rules for medium screens */
+        img {
+          width: calc(50vw / 1);
+        }
+      }
+    </style>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items">
+        <img src="	https://picsum.photos/1080/1080?random=1" alt="image" />
+      </div>
+      <div class="items">
+        <img src="	https://picsum.photos/1080/1080?random=2" alt="image" />
+      </div>
+      <div class="items">
+        <img src="	https://picsum.photos/1080/1080?random=3" alt="image" />
+      </div>
+      <div class="items">
+        <img src="	https://picsum.photos/1080/1080?random=4" alt="image" />
+      </div>
+      <div class="items">
+        <img src="	https://picsum.photos/1080/1080?random=5" alt="image" />
+      </div>
+      <div class="items">
+        <img src="	https://picsum.photos/1080/1080?random=6" alt="image" />
+      </div>
+      <div class="items">
+        <img src="	https://picsum.photos/1080/1080?random=7" alt="image" />
+      </div>
+      <div class="items">
+        <img src="	https://picsum.photos/1080/1080?random=8" alt="image" />
+      </div>
+      <div class="items">
+        <img src="	https://picsum.photos/1080/1080?random=9" alt="image" />
+      </div>
+    </div>
+  </body>
+</html>
