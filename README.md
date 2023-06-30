@@ -1,4 +1,4 @@
-# JavaScript Demo: Smooth Scrolling
+# JavaScript Demo: Smooth Scrolling of a hidden element using with vanilla javascript
 
 This demo demonstrates how to use JavaScript to implement smooth scrolling for a container element.
 
